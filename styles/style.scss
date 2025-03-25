@@ -71,7 +71,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: var(--default-padding);
-  margin: var(--default-padding);
+  padding: var(--default-padding);
   align-content: center;
 
   @include tablet {
